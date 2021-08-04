@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box } from '@material-ui/core'
+import { Box, Typography } from '@material-ui/core'
 import { styles } from './BgContent.style'
 
 export const BgContent : React.FC = () => {
@@ -7,7 +7,13 @@ export const BgContent : React.FC = () => {
     return (
         <Box className={useStyles.main}>
             <Box className={useStyles.bgimg}>
-                sss
+                <Box className={useStyles.solidfilter}></Box>
+                <Box className={useStyles.contentimg}>
+                    <Box className={useStyles.content_texts}>
+                        <Typography className={useStyles.textimg}>Sunset</Typography>
+                        <Typography className={useStyles.subtextimg}>Beach</Typography>
+                    </Box>
+                </Box>
             </Box>
         </Box>
     )
