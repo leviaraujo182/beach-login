@@ -1,0 +1,1 @@
+export { BgContent } from './BgContent'
