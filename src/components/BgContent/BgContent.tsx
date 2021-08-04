@@ -1,6 +1,7 @@
 import React from 'react'
 import { Box, Typography } from '@material-ui/core'
 import { styles } from './BgContent.style'
+import { SocialButtons } from 'components/SocialButtons'
 
 export const BgContent : React.FC = () => {
     const useStyles = styles()
@@ -10,8 +11,12 @@ export const BgContent : React.FC = () => {
                 <Box className={useStyles.solidfilter}></Box>
                 <Box className={useStyles.contentimg}>
                     <Box className={useStyles.content_texts}>
-                        <Typography className={useStyles.textimg}>Sunset</Typography>
-                        <Typography className={useStyles.subtextimg}>Beach</Typography>
+                        <label className={useStyles.textimg}>Sunset</label>
+                        <label className={useStyles.subtextimg}>Beach</label>
+                    </Box>
+
+                    <Box className={useStyles.socialbuttons}>
+                        Acesse nossas redes sociais e conheça mais sobre a gente
                     </Box>
                 </Box>
             </Box>

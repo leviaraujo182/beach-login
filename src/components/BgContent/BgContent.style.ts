@@ -22,6 +22,7 @@ export const styles = makeStyles({
         width: '100%',
         height: '100%',
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         zIndex: 1,
@@ -40,17 +41,23 @@ export const styles = makeStyles({
         color: '#FFF',
         fontSize: sizeTexts,
         fontWeight: 'bold',
-        fontFamily: 'Style Script'
+        fontFamily: 'Style Script',
+        height: 100
     },
 
     subtextimg: {
         color: '#FFF',
         fontSize: sizeTexts,
         fontFamily: 'Style Script',
+        height: 100
     },
 
     content_texts: {
         zIndex: 3,
         display: 'flex'
+    },
+
+    socialbuttons: {
+
     }
 })
