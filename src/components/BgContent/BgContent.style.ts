@@ -57,7 +57,9 @@ export const styles = makeStyles({
         display: 'flex'
     },
 
-    socialbuttons: {
-
+    textbottom: {
+        color: 'white',
+        zIndex: 3,
+        marginTop: 2
     }
 })

@@ -15,8 +15,12 @@ export const BgContent : React.FC = () => {
                         <label className={useStyles.subtextimg}>Beach</label>
                     </Box>
 
-                    <Box className={useStyles.socialbuttons}>
+                    <Box className={useStyles.textbottom}>
                         Acesse nossas redes sociais e conheça mais sobre a gente
+                    </Box>
+
+                    <Box>
+                        <SocialButtons />
                     </Box>
                 </Box>
             </Box>
