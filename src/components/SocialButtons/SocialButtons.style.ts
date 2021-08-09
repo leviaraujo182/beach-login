@@ -4,6 +4,7 @@ export const styles = makeStyles({
     listopts: {
         display:'flex',
         listStyle: 'none',
+        
     
     },
 
@@ -13,11 +14,9 @@ export const styles = makeStyles({
         paddingLeft: 15,
         paddingRight: 15,
     },
-
-    buttonsocial: {
-        color: 'white',
-        textTransform: 'capitalize',
-        borderColor: 'white',
-
+    iconbutton: {
+        color: '#FFF',
+        height: 10
+        
     }
 })
