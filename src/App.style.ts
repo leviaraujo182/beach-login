@@ -8,7 +8,8 @@ export const styles = makeStyles({
     },
     
     contentright: {
-        width: '40%'
+        width: '40%',
+        height: '100vh'
     },
 
     contentmain: {
