@@ -5,58 +5,65 @@ const padding = 16
 
 export const styles = makeStyles({
     main: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
         height: '100vh',
+        paddingRight: 16,
+        paddingLeft: 16
+    },
+
+    content_center: {
+        width: '100%',
+    },
+
+    contentforms: {
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
-        paddingLeft: padding,
-        paddingRight: padding,
-        flexDirection: 'column'
-    },
-
-    label_login: {
-        fontSize: 32,
-        fontWeight: 500,
-        textTransform: 'uppercase',
-        marginBottom: 15
-    },
-
-    formGroup: {
-        display: 'flex',
         flexDirection: 'column',
-        width: '70%'
+        alignItems: 'center'
+
     },
 
-    textField: {
-        marginTop: 20,
-        width: '100%',
-        
+    txtlogin: {
+        fontSize: 30
+    },
+
+    form: {
+        width: '70%',
+        paddingTop: 5,
+        paddingBottom: 5,
+
+        "& .MuiOutlinedInput-input": {
+            height: 14,
+            borderRadius: 10,
+        },
+
         "& .MuiOutlinedInput-root": {
-            borderRadius: 5
+            borderRadius: 14,
         }
     },
 
-    loginoptions: {
-        display: 'flex',
-        width: '70%',
-        justifyContent: 'space-between',
-    },
-    btnlogar: {
-        width: '70%',
-        color: '#FFF',
+    inputicons: {
+        color: '#CDCDCD'
     },
 
-    noncad: {
-        marginTop: 5,
-        fontSize: 14
-    },
-
-    dividerstyle: {
-        width: '60%',
+    btnentrar: {
         marginTop: 10,
-        marginBottom: 10,
-        height: 1
-    }
+        color: '#FFF',
+        borderRadius: 20,
+    },
 
+    subcontentform: {
+        display: 'flex',
+        justifyContent: 'space-between',
+        width: '70%'
+    },
+
+    divider: {
+        width: '60%',
+        marginTop: 20,
+        marginBottom: 15
+    }
 
 })
