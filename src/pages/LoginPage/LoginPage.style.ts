@@ -44,10 +44,19 @@ export const styles = makeStyles({
     btnlogar: {
         width: '70%',
         color: '#FFF',
+    },
 
-        "& .MuiButton-contained": {
-            backgroundColor: '#F23'
-        }
-        
+    noncad: {
+        marginTop: 5,
+        fontSize: 14
+    },
+
+    dividerstyle: {
+        width: '60%',
+        marginTop: 10,
+        marginBottom: 10,
+        height: 1
     }
+
+
 })
