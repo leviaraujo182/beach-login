@@ -39,12 +39,16 @@ export const LoginPage : React.FC = () => {
                     }}/>
 
                     <Box className={useStyles.subcontentform}>
-                        <FormControlLabel control={<Checkbox color="primary" />} label="Lembrar-me"/>
+                        <FormControlLabel control={<Checkbox color="primary" />} label={
+                            <Typography style={{ color: '#999999' }}>
+                                Lembrar-me
+                            </Typography>
+                        }/>
                         <Button variant="contained" color="primary" className={useStyles.btnentrar}>Entrar</Button>
                     </Box>
 
                     <Divider variant="fullWidth" className={useStyles.divider} />
-                    <Typography>Continue utilizando as redes sociais</Typography>
+                    <Typography style={{ color : '#999999' }}>Continue utilizando as redes sociais</Typography>
                     <SocialLogin />
                 </Box>
             </Box>
