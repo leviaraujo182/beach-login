@@ -1,9 +1,10 @@
-import { Typography, Box, IconButton, Button } from '@material-ui/core'
+import { Typography, Box, IconButton, Button, SvgIcon, Icon } from '@material-ui/core'
 import React from 'react'
 import { useStyles } from './SocialLogin.style'
-import Google from '_assets/images/google.png'
-import Facebook from '_assets/images/facebook.png'
-import Twitter from '_assets/images/twitter.png'
+import Google from '_assets/images/google.svg'
+import Facebook from '_assets/images/facebook.svg'
+import Twitter from '_assets/images/twitter.svg'
+import Google8 from '_assets/images/google8.svg'
 
 export const SocialLogin : React.FC = () => {
     const styles = useStyles()

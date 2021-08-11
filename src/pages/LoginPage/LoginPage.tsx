@@ -40,7 +40,7 @@ export const LoginPage : React.FC = () => {
 
                     <Box className={useStyles.subcontentform}>
                         <FormControlLabel control={<Checkbox color="primary" />} label={
-                            <Typography style={{ color: '#999999' }}>
+                            <Typography className={useStyles.textremember}>
                                 Lembrar-me
                             </Typography>
                         }/>

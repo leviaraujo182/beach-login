@@ -64,6 +64,10 @@ export const styles = makeStyles({
         width: '60%',
         marginTop: 20,
         marginBottom: 15
+    },
+
+    textremember: {
+        color: '#999999'
     }
 
 })

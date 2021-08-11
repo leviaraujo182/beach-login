@@ -14,50 +14,54 @@ export const useStyles = makeStyles({
 
     listitem_facebook: {
         textTransform: 'capitalize',
-        background: '#3b5998',
-        color: 'white',
+        background: '#FFF',
         fontSize: 12,
         margineLeft:6,
         marginRight: 6,
         borderRadius: 20,
 
         "&:hover": {
-            backgroundColor: '#3b5998'
+            backgroundColor: '#FFF'
         }
     },
 
     listitem_twitter: {
         textTransform: 'capitalize',
-        background: '#00acee',
-        color: 'white',
+        background: '#FFF',
         fontSize: 12,
         margineLeft:6,
         marginRight: 6,
         borderRadius: 20,
 
         "&:hover": {
-            backgroundColor: '#00acee'
+            backgroundColor: '#FFF'
         }
     },
 
     listitem_google: {
         textTransform: 'capitalize',
-        background: '#de5246',
-        color: 'white',
+        background: '#FFF',
         fontSize: 12,
         margineLeft:6,
         marginRight: 6,
         borderRadius: 20,
 
         "&:hover": {
-            backgroundColor: '#de5246'
+            backgroundColor: '#FFF'
         }
     },
 
     iconbuttons: {
         width: 15,
         height: 15
+    },
+
+    iconbuttons_facebook: {
+        width: 25,
+        height: 25,
+        fill: '#4267B2'
     }
+
 
 
 
