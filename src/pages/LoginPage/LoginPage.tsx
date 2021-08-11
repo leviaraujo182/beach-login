@@ -4,15 +4,6 @@ import { styles } from './LoginPage.style'
 import { PersonOutline, Lock, PersonSharp } from '@material-ui/icons'
 import { SocialLogin } from 'components/SocialLogin'
 
-const CheckBoxStyle = withStyles({
-    root: {
-        "&$checked": {
-            color: '#C38D25'
-        }
-    },
-
-    checked: {}
-})(Checkbox)
 
 export const LoginPage : React.FC = () => {
     const [stateIconEmail, setStateIconEmail] = useState(false)
@@ -23,6 +14,7 @@ export const LoginPage : React.FC = () => {
         <Box className={useStyles.main}>
             <Box className={useStyles.content_center}>
                 <Box className={useStyles.contentforms}>
+                    <label className={useStyles.labellogin}>Login</label>
                     <TextField variant="outlined" placeholder="Email" className={useStyles.form} InputProps={{
                         startAdornment: (
                             <InputAdornment position="start">

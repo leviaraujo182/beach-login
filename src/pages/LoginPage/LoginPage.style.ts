@@ -68,6 +68,16 @@ export const styles = makeStyles({
 
     textremember: {
         color: '#999999'
-    }
+    },
+
+    labellogin: {
+        fontSize: 75,
+        marginBottom: 25,
+        fontFamily: 'Style Script',
+        background: 'linear-gradient(90deg, rgba(159,118,52,1) 17%, rgba(203,163,62,1) 100%)',
+        WebkitBackgroundClip: 'text',
+        WebkitTextFillColor: 'transparent',
+        fontWeight: 500
+    },
 
 })
