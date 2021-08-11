@@ -38,14 +38,16 @@ export const styles = makeStyles({
 
         "& .MuiOutlinedInput-input": {
             height: 14,
-            borderRadius: 10,
+            borderRadius: 0,
             outline: 'none',
+            
 
         },
 
         "& .MuiOutlinedInput-root": {
-            borderRadius: 14,
+            borderRadius: 0,
             outline: 'none',
+            backgroundColor: '#F5F5F5'
         },
     },
 
