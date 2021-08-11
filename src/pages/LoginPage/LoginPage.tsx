@@ -3,7 +3,7 @@ import { Box, Typography, TextField, InputAdornment, FormControlLabel, Checkbox,
 import { styles } from './LoginPage.style'
 import { PersonOutline, Lock, PersonSharp } from '@material-ui/icons'
 import { SocialLogin } from 'components/SocialLogin'
-
+import { Link as LinkRouter } from 'react-router-dom'
 
 export const LoginPage : React.FC = () => {
     const [stateIconEmail, setStateIconEmail] = useState(false)
@@ -47,7 +47,14 @@ export const LoginPage : React.FC = () => {
             </Box>
 
             <Box className={useStyles.footer}>
-                <Typography className={useStyles.no_account}>Ainda não possui conta? Clique aqui</Typography>
+                <Typography className={useStyles.no_account}>Ainda não possui conta?</Typography> 
+                
+                    <a href="#" className={useStyles.clickhere}>
+                    <LinkRouter to="/createAccount">
+                        <Typography className={useStyles.clickhere}>Clique aqui</Typography>
+                    </LinkRouter>
+                    </a>
+                
             </Box>
             
         </Box>

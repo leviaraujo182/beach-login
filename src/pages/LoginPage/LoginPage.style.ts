@@ -87,7 +87,9 @@ export const styles = makeStyles({
 
     footer: {
         position: 'absolute',
-        bottom: 10
+        bottom: 10,
+        display: 'flex',
+        flexDirection: 'row'
     },
 
     no_account: {
@@ -97,6 +99,18 @@ export const styles = makeStyles({
 
     textlogsocial: {
         color: '#999999'
+    },
+
+    clickhere: {
+        textDecoration: 'none',
+        fontSize: 14,
+        marginLeft: 2,
+        color: '#999999',
+        transition: '0.4s',
+
+        "&:hover": {
+            color: '#595959',
+        }
     }
 
 })
