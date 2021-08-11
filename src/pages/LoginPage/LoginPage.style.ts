@@ -10,7 +10,8 @@ export const styles = makeStyles({
         justifyContent: 'center',
         height: '100vh',
         paddingRight: 16,
-        paddingLeft: 16
+        paddingLeft: 16,
+        flexDirection: 'column'
     },
 
     content_center: {
@@ -32,16 +33,20 @@ export const styles = makeStyles({
     form: {
         width: '70%',
         paddingTop: 5,
+        outline: 'none',
         paddingBottom: 5,
 
         "& .MuiOutlinedInput-input": {
             height: 14,
             borderRadius: 10,
+            outline: 'none',
+
         },
 
         "& .MuiOutlinedInput-root": {
             borderRadius: 14,
-        }
+            outline: 'none',
+        },
     },
 
     inputicons: {
@@ -79,5 +84,19 @@ export const styles = makeStyles({
         WebkitTextFillColor: 'transparent',
         fontWeight: 500
     },
+
+    footer: {
+        position: 'absolute',
+        bottom: 10
+    },
+
+    no_account: {
+        color: '#999999',
+        fontSize: 14
+    },
+
+    textlogsocial: {
+        color: '#999999'
+    }
 
 })

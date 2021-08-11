@@ -27,7 +27,7 @@ export const LoginPage : React.FC = () => {
                             <InputAdornment position="start">
                                 <Lock className={useStyles.inputicons}/>
                             </InputAdornment>
-                        )
+                        ),
                     }}/>
 
                     <Box className={useStyles.subcontentform}>
@@ -40,9 +40,14 @@ export const LoginPage : React.FC = () => {
                     </Box>
 
                     <Divider variant="fullWidth" className={useStyles.divider} />
-                    <Typography style={{ color : '#999999' }}>Continue utilizando as redes sociais</Typography>
+                    <Typography className={useStyles.textlogsocial}>Continue utilizando as redes sociais</Typography>
                     <SocialLogin />
                 </Box>
+                    
+            </Box>
+
+            <Box className={useStyles.footer}>
+                <Typography className={useStyles.no_account}>Ainda não possui conta? Clique aqui</Typography>
             </Box>
             
         </Box>
