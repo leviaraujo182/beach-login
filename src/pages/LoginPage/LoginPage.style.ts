@@ -1,6 +1,7 @@
 import { makeStyles } from '@material-ui/core'
 import bg from '_assets/images/bg.jpg'
 
+
 const padding = 16
 
 export const styles = makeStyles({
@@ -59,6 +60,7 @@ export const styles = makeStyles({
         marginTop: 10,
         color: '#FFF',
         borderRadius: 20,
+        textTransform: 'capitalize'
     },
 
     subcontentform: {
