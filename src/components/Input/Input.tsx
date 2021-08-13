@@ -13,7 +13,7 @@ export const Input : React.FC<InputProps> = ({name, icon, type}) => {
     const style = useStyles()
     return <TextField variant="outlined" type={type} placeholder={name} className={style.input} InputProps={{
         startAdornment: (
-            <InputAdornment position="start">
+            <InputAdornment position="start" className={style.adormentstyle}>
                 {icon}
             </InputAdornment>
         )

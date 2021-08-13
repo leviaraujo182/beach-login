@@ -20,5 +20,9 @@ export const useStyles = makeStyles({
             outline: 'none',
             backgroundColor: '#F5F5F5'
         },
-    }  
+    },
+
+    adormentstyle: {
+        color: '#CDCDCD'
+    }
 })

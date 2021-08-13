@@ -12,5 +12,17 @@ export const useStyles = makeStyles({
 
     contentmid: {
         width: '70%'
+    },
+
+    contentheader: {
+        width: '100%',
+        position: 'absolute',
+        top: 15,
+        marginLeft: 20
+    },
+
+    arrowback: {
+        width: 25,
+        height: 25,
     }
 })
