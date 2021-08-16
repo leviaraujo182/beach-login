@@ -19,6 +19,7 @@ export const useStyles = makeStyles({
         margineLeft:6,
         marginRight: 6,
         borderRadius: 20,
+        minWidth: '6rem',
 
         "&:hover": {
             backgroundColor: '#FFF'
@@ -32,6 +33,7 @@ export const useStyles = makeStyles({
         margineLeft:6,
         marginRight: 6,
         borderRadius: 20,
+        minWidth: '6rem',
 
         "&:hover": {
             backgroundColor: '#FFF'
@@ -45,6 +47,7 @@ export const useStyles = makeStyles({
         margineLeft:6,
         marginRight: 6,
         borderRadius: 20,
+        minWidth: '6rem',
 
         "&:hover": {
             backgroundColor: '#FFF'
