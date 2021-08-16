@@ -24,5 +24,35 @@ export const useStyles = makeStyles({
     arrowback: {
         width: 25,
         height: 25,
+    },
+
+    contentbutton: {
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'center',
+    },
+
+    btnfinish: {
+        textTransform: 'capitalize',
+        marginTop: 10,
+        color: '#FFF',
+        borderRadius: 20
+    },
+
+    boxtermos: {
+        display: 'flex',
+        color: '#999999'
+    },
+
+    termos: {
+        marginLeft: 5,
+        textDecoration: 'none',
+        color: '#c38d25',
+    },
+
+    createaccount: {
+        textAlign: 'center',
+        fontSize: 40,
+        fontWeight: 300
     }
 })

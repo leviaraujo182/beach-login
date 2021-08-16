@@ -12,11 +12,11 @@ export const LoginPage : React.FC = () => {
 
     const useStyles = styles()
     return (
-        <motion.div exit={{ x: '100%' }} initial={{ x: '100%' }} animate={{ x: 0 }}>
+        <motion.div exit={{ x: '100%' }} initial={{ x: '100%' }} animate={{ x: 0 }} transition={{ type: 'just' }}>
             <Box className={useStyles.main}>
                 <Box className={useStyles.content_center}>
                     <Box className={useStyles.contentforms}>
-                        <label className={useStyles.labellogin}>Login</label>
+                        <Typography className={useStyles.txtentrar}>Entrar</Typography>
                         <TextField variant="outlined" placeholder="Email" className={useStyles.form} InputProps={{
                             startAdornment: (
                                 <InputAdornment position="start">

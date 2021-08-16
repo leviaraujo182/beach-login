@@ -115,6 +115,11 @@ export const styles = makeStyles({
         "&:hover": {
             color: '#595959',
         }
+    },
+
+    txtentrar: {
+        fontSize: 40,
+        fontWeight: 300
     }
 
 })
