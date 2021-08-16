@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core'
 import Bg from '_assets/images/bg.jpg'
 
-const sizeTexts = 100
+const sizeTexts = '6.25rem'
 
 export const styles = makeStyles({
     main: {

@@ -17,7 +17,8 @@ export const styles = makeStyles((theme: Theme) => createStyles({
         height: '100vh',
 
         [theme.breakpoints.down("xs")]: {
-            width: '100%'
+            width: '100%',
+            overflow: 'hidden'
         }
     },
 

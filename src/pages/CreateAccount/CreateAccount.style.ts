@@ -1,6 +1,7 @@
 import { makeStyles } from '@material-ui/core'
+import {Theme, createStyles} from '@material-ui/core/styles'
 
-export const useStyles = makeStyles({
+export const useStyles = makeStyles((theme: Theme) => createStyles({
     main: {
         width: '100%',
         height: '100vh',
@@ -8,10 +9,16 @@ export const useStyles = makeStyles({
         justifyContent: 'center',
         alignItems: 'center',
         flexDirection: 'column',
+        [theme.breakpoints.down("xs")]: {
+            overflow: 'hidden'
+        }
     },
 
     contentmid: {
-        width: '70%'
+        width: '70%',
+        [theme.breakpoints.down("xs")]: {
+            width: '90%'
+        }
     },
 
     contentheader: {
@@ -41,7 +48,8 @@ export const useStyles = makeStyles({
 
     boxtermos: {
         display: 'flex',
-        color: '#999999'
+        color: '#999999',
+        width: '100%'
     },
 
     termos: {
@@ -52,7 +60,18 @@ export const useStyles = makeStyles({
 
     createaccount: {
         textAlign: 'center',
-        fontSize: 40,
+        fontSize: '2.5rem',
         fontWeight: 300
+    },
+
+    labelaceito: {
+        fontFamily: 'Roboto',
+        [theme.breakpoints.down("xs")]: {
+            fontSize: '1rem'
+        }
+    },
+
+    linktermos: {
+        textDecoration: 'none'
     }
-})
+}))

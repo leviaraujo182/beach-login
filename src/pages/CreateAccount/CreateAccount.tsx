@@ -26,10 +26,8 @@ export const CreateAccount : React.FC = () => {
                     <Input name="Telefone" type="email" icon={<LocalPhone />}/>
                     <FormControlLabel control={<Checkbox icon={<RadioButtonUnchecked />} checkedIcon={<CheckCircle />} color="primary" />} label={
                         <Box className={style.boxtermos}>
-                            <Typography>Eu aceito e concordo com os</Typography>
-                            <a href="#" className={style.termos}>
-                                <Typography>termos de uso</Typography>
-                            </a>
+                            <label className={style.labelaceito}>Eu aceito e concordo com os <a href="#" className={style.linktermos}>Termos de uso</a></label>
+
                         </Box>
                     }/>
                     <Box className={style.contentbutton}>

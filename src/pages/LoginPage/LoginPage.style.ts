@@ -1,10 +1,11 @@
 import { makeStyles } from '@material-ui/core'
 import bg from '_assets/images/bg.jpg'
+import {Theme, createStyles } from '@material-ui/core/styles'
 
 
 const padding = 16
 
-export const styles = makeStyles({
+export const styles = makeStyles((theme: Theme) => createStyles({
     main: {
         display: 'flex',
         alignItems: 'center',
@@ -12,7 +13,10 @@ export const styles = makeStyles({
         height: '100vh',
         paddingRight: 16,
         paddingLeft: 16,
-        flexDirection: 'column'
+        flexDirection: 'column',
+        [theme.breakpoints.down("xs")]: {
+            overflow: 'hidden'
+        }
     },
 
     content_center: {
@@ -32,6 +36,9 @@ export const styles = makeStyles({
     },
 
     form: {
+        [theme.breakpoints.down("xs")]: {
+            width: '90%'
+        },
         width: '70%',
         paddingTop: 5,
         outline: 'none',
@@ -66,13 +73,21 @@ export const styles = makeStyles({
     subcontentform: {
         display: 'flex',
         justifyContent: 'space-between',
-        width: '70%'
+        width: '70%',
+
+        [theme.breakpoints.down("xs")]: {
+            width: '90%'
+        }
     },
 
     divider: {
         width: '60%',
         marginTop: 20,
-        marginBottom: 15
+        marginBottom: 15,
+
+        [theme.breakpoints.down("xs")]: {
+            width: '90%'
+        }
     },
 
     textremember: {
@@ -102,7 +117,8 @@ export const styles = makeStyles({
     },
 
     textlogsocial: {
-        color: '#999999'
+        color: '#999999',
+        fontSize: '1rem'
     },
 
     clickhere: {
@@ -118,8 +134,8 @@ export const styles = makeStyles({
     },
 
     txtentrar: {
-        fontSize: 40,
+        fontSize: '2.5rem',
         fontWeight: 300
     }
 
-})
+}))

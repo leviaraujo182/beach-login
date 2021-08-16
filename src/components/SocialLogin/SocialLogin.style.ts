@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core'
 export const useStyles = makeStyles({
     list: {
         display: 'flex',
-        width: '60%',
         justifyContent: 'center',
         marginTop: 3  
     },
@@ -45,7 +44,6 @@ export const useStyles = makeStyles({
         background: '#FFF',
         fontSize: 12,
         margineLeft:6,
-        marginRight: 6,
         borderRadius: 20,
         minWidth: '6rem',
 
