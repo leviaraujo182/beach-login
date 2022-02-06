@@ -27,7 +27,7 @@ Para o rodar o projeto, siga os passos a baixo
 
 1 - Clonar o repositório
 ```
-git clone https://github.com/leviaraujo182/material-login-ts.git
+git clone https://github.com/leviaraujo182/beach-login
 ```
 
 2 - Instalar as dependências
